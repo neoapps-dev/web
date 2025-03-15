@@ -120,7 +120,7 @@ app.render(`
 <hr style="margin-top: 300px">
 
     <div class="footer">
-      &copy; 2025 NEOAPPS. All rights reserved.
+      &copy; 2025 NEOAPPS (based on yamenher's website). All rights reserved.
     </div>
   </div>
 </div>
