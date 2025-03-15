@@ -8,7 +8,7 @@ app.setTitle("NEOAPPS");
 app.render(`
 <header class ="navbar">
   <nav>
-<img src="https://github.com/yamenher.png" id="small-pic" alt="Yamen Hermassi" class="profile-picture-small">
+<img src="https://github.com/neoapps-dev.png" id="small-pic" alt="Yamen Hermassi" class="profile-picture-small">
   <h5 class="max">About me</h5>
     <button id="menu" class="circle ripple transparent">
       <i>more_vert</i>
@@ -283,7 +283,7 @@ const scrollDelay = 1;
 window.addEventListener('scroll', function() {
     const now = Date.now();
     if (now - lastScrollTime >= scrollDelay) {
-        scrollOffset = window.scrollY;
+        const scrollOffset = window.scrollY;
         scrollPercentage = (scrollOffset / totalHeight);
 
         if (scrollPercentage <= 1) {
