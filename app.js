@@ -2,7 +2,7 @@ import { Holo } from 'holo-js';
 import 'beercss';
 import 'material-dynamic-colors';
 
-const app = Holo.init();
+const app = Holo.init(true);
 app.setTitle("NEOAPPS");
 
 app.render(`
@@ -339,5 +339,3 @@ document.getElementById('menu').addEventListener('click', function() {
     }
   });
 });
-
-app.exposeAsApp(); // for debugging purposes, remove on prod lol
